@@ -20,7 +20,7 @@ cd /bin
 ## Run the backend micro-services
 See the README.md files inside the each microservices directory:
 
-- BoundedContext273
+- ProductMgmt
 
 
 ## Run API Gateway (Spring Gateway)
@@ -30,7 +30,7 @@ mvn spring-boot:run
 ```
 
 ## Test by API
-- BoundedContext273
+- ProductMgmt
 ```
  http :8088/products id="id" name="name" stock="stock" 
 ```

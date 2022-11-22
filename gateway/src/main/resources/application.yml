@@ -8,7 +8,7 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: BoundedContext273
+        - id: ProductMgmt
           uri: http://localhost:8081
           predicates:
             - Path=/products/**, 
@@ -35,8 +35,8 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: BoundedContext273
-          uri: http://boundedContext273:8080
+        - id: ProductMgmt
+          uri: http://productMgmt:8080
           predicates:
             - Path=/products/**, 
         - id: frontend
